@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 
 namespace AsadTutorialWebAPI.Controllers
 {
-    [Authorize]
+   // [Authorize]
     public class CityController : BaseController
     {
         private readonly IUnitOfWork uow;
