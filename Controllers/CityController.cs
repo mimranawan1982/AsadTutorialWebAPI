@@ -24,7 +24,7 @@ namespace AsadTutorialWebAPI.Controllers
             this.mapper = mapper;
         }
 
-       [AllowAnonymous]
+      // [AllowAnonymous]
         [HttpGet("cities")]
         public async Task<IActionResult> getCities()
         {
